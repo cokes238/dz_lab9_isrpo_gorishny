@@ -47,7 +47,7 @@ class Program
 
         light.OnStateChanged += (isOn) =>
         {
-            Console.WriteLine(isOn ? "Свет включён" : " Свет выключен");
+            Console.WriteLine(isOn ? "Свет включён"  : " Свет выключен");
         };
 
         Console.WriteLine(" Управление умной лампой ");
